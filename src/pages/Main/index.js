@@ -1,9 +1,7 @@
 import React from 'react';
 
-import { Title } from './styles';
-
 function Main() {
-    return <Title>Main</Title>;
+    return <a href="/agradecimento">pagina agradecimento </a>;
 }
 
 export default Main;
