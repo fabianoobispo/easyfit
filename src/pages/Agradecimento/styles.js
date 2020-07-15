@@ -26,23 +26,23 @@ export const MessageImg = styled.div`
 export const MessageText = styled.div`
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
+    padding-left: 80px;
     /* tipo de fonte thicker semibold */
     h1 {
         font-family: 'Anton', sans-serif;
         color: #fff;
-        font-size: 90px;
+        font-size: 70px;
     }
     span {
         font-family: 'Open Sans', sans-serif;
         color: #fff;
-        font-size: 40px;
+        font-size: 30px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     button {
         font-family: 'Roboto', sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         padding: 20px;
         border-radius: 20px;
         color: #fff;
