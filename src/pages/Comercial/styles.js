@@ -6,14 +6,14 @@ import Baner01 from '../../assets/Baner01.png';
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: 1920px;
+    max-width: 100%;
     width: auto;
 `;
 
 export const Div1 = styled.div`
     background-image: url(${backgroundDiv1});
-    max-width: 1920px;
-    width: auto;
+    
+    overflow: auto
     background-attachment: fixed;
     display: flex;
     flex-direction: row;
@@ -56,10 +56,14 @@ export const Div1 = styled.div`
     }
 `;
 export const Div2 = styled.div`
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
     flex-direction: row;
+    img{
+        max-width: 100%;
+    }
 `;
 export const Div3 = styled.div`
     background-color: black;
