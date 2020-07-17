@@ -12,7 +12,6 @@ export const Container = styled.div`
 
 export const Message = styled.div`
     width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
