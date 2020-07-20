@@ -10,6 +10,7 @@ export default createGlobalStyle`
 
     html, border-style, #root{
         min-height: 100%;
+
     }
 
     body {

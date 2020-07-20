@@ -2,14 +2,19 @@ import styled from 'styled-components';
 
 import backgroundDiv1 from '../../assets/BackgroundDiv1.png';
 
+import backgroundDiv6 from '../../assets/BackgroudCadastro.png';
 import Baner01 from '../../assets/Baner01.png';
 
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-    width: auto;
+
+    align-items: center;
+
+    max-width: 1440px;
 `;
+
+export const ImageLogo = styled.img``;
 
 export const Div1 = styled.div`
     background-image: url(${backgroundDiv1});
@@ -18,12 +23,14 @@ export const Div1 = styled.div`
     background-attachment: fixed;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     div {
         display: flex;
         flex-direction: column;
 
-        img {
+        div {
+            img {
             max-width: 239px;
             max-height: 94px;
             width: auto;
@@ -33,18 +40,20 @@ export const Div1 = styled.div`
             top: 70px;
             left: 40px;
         }
+
+        }
         p {
             margin-top: 200px;
             font-family: 'Anton', sans-serif;
             font-size: 60px;
-            text-align: right;
+            text-align: left;
 
         }
         span {
             margin-top: 50px;
             font-family: 'Anton', sans-serif;
             font-size: 60px;
-            text-align: right;
+            text-align: left;
         }
 
         button {
@@ -65,8 +74,10 @@ export const Div2 = styled.div`
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     max-width: 100%;
+    width: 100%;
     div {
         display: flex;
         flex-direction: row;
@@ -110,14 +121,84 @@ export const Div3 = styled.div`
     }
 `;
 export const Div4 = styled.div`
-    background-color: red;
-    max-width: 1920px;
+       display: flex;
+        flex-direction: column;
+    justify-content: center;
+    flex: 1;
+
+  p {
+        margin-top: 50px;
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    span {
+        margin-top:-10px
+        font-family: 'Anton', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
 `;
 export const Div5 = styled.div`
-    background-color: black;
     max-width: 1920px;
 `;
 export const Div6 = styled.div`
-    background-color: red;
-    max-width: 1920px;
+    background-image: url(${backgroundDiv6});
+
+    max-width: 100%;
+    width: 100%;
+    height: 533px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+
+        p {
+            font-family: 'Anton', sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color: #742079;
+        }
+
+        input {
+            margin-top: 10px;
+            background-color: #ab81b3;
+
+            border-radius: 10px;
+            color: #eeceea;
+            font-family: sans-serif;
+            font-size: 20px;
+
+            padding: 10px;
+        }
+        button {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+            border: none;
+            color: #fff;
+            background-color: #4fc580;
+            width: 100%;
+        }
+    }
+
+    logo {
+        margin-top: 300px;
+        margin-left: 150px;
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            margin-top: 10px;
+            color: #742079;
+        }
+    }
 `;
