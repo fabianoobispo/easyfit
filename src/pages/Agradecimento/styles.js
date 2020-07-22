@@ -5,9 +5,10 @@ import backgroundFooter from '../../assets/fundoRodape.png';
 export const Container = styled.div`
     background-image: url(${background});
     background-repeat: no-repeat;
-    width: 100%;
+    margin: 0 auto;
+    width: 1900px;
+
     height: 100vh;
-    padding: 100px 0;
 `;
 
 export const Message = styled.div`
@@ -26,6 +27,7 @@ export const MessageText = styled.div`
     display: flex;
     flex-direction: column;
     padding-left: 80px;
+    margin-top: 150px;
     /* tipo de fonte thicker semibold */
     h1 {
         font-family: 'Anton', sans-serif;
@@ -51,12 +53,13 @@ export const MessageText = styled.div`
 
 export const Footer = styled.div`
     background-image: url(${backgroundFooter});
+    margin: 0 auto;
+    width: 1900px;
     opacity: 0.8;
     position: fixed;
-    left: 0;
+
     bottom: 0;
-    width: 100%;
+
     color: white;
     text-align: center;
-    padding-top: 5px;
 `;

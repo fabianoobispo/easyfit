@@ -5,10 +5,10 @@ import { Container } from './styles';
 function Main() {
     return (
         <Container>
-            <a href="/agradecimento">pagina agradecimento </a>
+            <a href="/usuarios">pagina Usuarios </a>
             <a href="/comercial">pagina Comercial </a>
             <a href="/personal">pagina Personal </a>
-            <a href="/usuarios">pagina Usuarios </a>
+            <a href="/agradecimento">pagina agradecimento </a>
         </Container>
     );
 }

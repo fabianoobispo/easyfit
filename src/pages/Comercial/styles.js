@@ -11,7 +11,8 @@ export const Container = styled.div`
 
     align-items: center;
 
-    max-width: 1440px;
+    width: 1900px;
+    margin: 0 auto;
 `;
 
 export const ImageLogo = styled.img``;
