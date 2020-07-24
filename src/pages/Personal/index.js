@@ -22,7 +22,7 @@ function Personal() {
                         Personal,
                         <br /> conecte-se ao
                         <br /> novo mundo
-                        <br /> <strong>com EasyFit</strong>
+                        <br /> <strong>com o EasyFit</strong>
                     </p>
                     <img src={Check} alt={Check} />
                 </titulo>
@@ -34,8 +34,8 @@ function Personal() {
                         Dando preferencia a espaços ao ar livre, longe de <br />
                         aglomerações. Totalmente adaptadas ao digital.
                     </p>
+                    <button>Quero me conectar agora</button>
                 </subTitulo>
-                <button>Quero me conectar agora</button>
             </Div1>
             <Div2>
                 <p>

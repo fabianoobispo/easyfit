@@ -13,14 +13,25 @@ export const Div1 = styled.div`
     width: 100%;
     height: 1040px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     img {
+        margin-top: 30px;
+
         max-width: 239px;
         max-height: 94px;
-
-        top: 70px;
     }
 
     titulo {
+        margin-top: 130px;
+
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        margin-left: -800px;
+
         p {
             font-family: 'Anton', sans-serif;
             font-size: 60px;
@@ -34,23 +45,28 @@ export const Div1 = styled.div`
     }
 
     subTitulo {
+        margin-top: 20px;
+        margin-left: -850px;
         p {
             font-family: 'Anton', sans-serif;
-            font-size: 60px;
+            font-size: 20px;
             text-align: left;
             color: #fff;
+            margin-bottom: 30px;
         }
-    }
+        button {
+            margin-top: 40px;
+            margin-left: -850px;
 
-    button {
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        padding: 10px;
-        margin: 20px;
-        border-radius: 5px;
-        border: none;
-        color: #fff;
-        background-color: #4fc580;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 5px;
+            border: none;
+            color: #fff;
+            background-color: #4fc580;
+        }
     }
 `;
 export const Div2 = styled.div`
